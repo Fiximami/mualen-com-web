@@ -8,27 +8,30 @@
   </head>
   <body>
     <section class="bg-[#000627] text-white">
-      <header class="py-4 text-white">
-        <div class="flex justify-between items-center mx-8">
-          <div class="text-2xl font-bold w-[70%]">
+      <header class="py-4 shadow-md text-white">
+        <div
+          class="flex flex-col justify-center items-center md:flex-row md:justify-between mx-8"
+        >
+          <div class="text-3xl font-bold py-5 md:text-2xl md:w-[60%]">
             <a href="/" class="text-teal-500"> Mualen Technology </a>
           </div>
-          <!-- Desktop menu -->
-          <ul class="flex justify-between flex-1 font-semibold">
+          <!--  menu -->
+          <ul class="flex justify-between flex-1 font-semibold w-full">
+            <!-- class="flex justify-between flex-1 font-semibold" -->
             <li>
-              <a href="../">Home</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="./about_us.html">About</a>
+              <a href="/components/about_us.html">About</a>
             </li>
             <li>
-              <a href="./services.html">Services</a>
+              <a href="/components/services.html">Services</a>
             </li>
             <li>
-              <a href="./products.html">Products</a>
+              <a href="/components/products">Products</a>
             </li>
             <li>
-              <a href="./faq">FAQ</a>
+              <a href="/components/faq">FAQ</a>
             </li>
           </ul>
         </div>
@@ -208,21 +211,35 @@
       </div>
     </section>
 
-    
-
-    <footer class="flex justify-evenly items-start py-10 text-white bg-sky-950">
-      <div>
+    <footer
+      class="flex flex-col md:flex-row justify-center md:justify-evenly items-center md:items-start py-10 text-white bg-sky-950"
+    >
+      <div class="flex flex-col items-center justify-center">
         <h1>Mualen<span class="text-teal-500 text-lg">Tech</span></h1>
         <p>@2022 enterprise village</p>
-        <div class="py-4">
-          <textarea name="" id="" cols="30" rows="5"></textarea>
-          <input type="email" name="" id="" class="mt-2 w-[70%]" />
+
+        <div class="py-4 w-[80%] mx-auto md:mx-0">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="5"
+            class="w-full"
+            placeholder="comments"
+          ></textarea>
+          <input
+            type="email"
+            name=""
+            id=""
+            placeholder="email"
+            class="mt-2 w-full"
+          />
         </div>
       </div>
 
-      <div class="block list-none">
+      <div class="block list-none py-4">
         <span class="block text-teal-500">
-          <a href="/service">About Us</a>
+          <a href="#">About Us</a>
         </span>
         <ul>
           <li>
@@ -239,7 +256,65 @@
         </ul>
       </div>
 
+      <div class="list-none py-4">
+        <span class="block text-teal-500">Product</span>
+        <li><a href="/about" class="link link-hover">FixiMami </a></li>
+        <li><a href="#" class="link link-hover"> HighSafe</a></li>
+        <li><a href="#" class="link link-hover"> CDAS Agency</a></li>
+      </div>
+
       <div class="list-none">
+        <span class="footer-title text-teal-500">Contact Us</span>
+        <li><a class="link link-hover">mualenteachLTD.com</a></li>
+        <li><a class="link link-hover">233 24127 5668</a></li>
+      </div>
+    </footer>
+    <footer
+      class="flex flex-col md:flex-row justify-center md:justify-evenly items-center md:items-start py-10 text-white bg-sky-950"
+    >
+      <div class="flex flex-col items-center justify-center">
+        <h1>Mualen<span class="text-teal-500 text-lg">Tech</span></h1>
+        <p>@2022 enterprise village</p>
+
+        <div class="py-4 w-[80%] mx-auto md:mx-0">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="5"
+            class="w-full"
+            placeholder="comments"
+          ></textarea>
+          <input
+            type="email"
+            name=""
+            id=""
+            placeholder="email"
+            class="mt-2 w-full"
+          />
+        </div>
+      </div>
+
+      <div class="block list-none py-4">
+        <span class="block text-teal-500">
+          <a href="#">About Us</a>
+        </span>
+        <ul>
+          <li>
+            <a class="link link-hover">MualenTech's Overview & History</a>
+          </li>
+          <li>
+            <a class="link link-hover">Mission, Vision, Our Commitment</a>
+          </li>
+          <li>
+            <a class="link link-hover"
+              >Who we are, Our Values, Where We are Headed</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="list-none py-4">
         <span class="block text-teal-500">Product</span>
         <li><a href="/about" class="link link-hover">FixiMami </a></li>
         <li><a href="#" class="link link-hover"> HighSafe</a></li>
