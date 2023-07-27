@@ -39,9 +39,9 @@
     </section>
 
     <section class="realtive py-8">
-      <div class="flex items-center justify-between">
-        <div class="relative">
-          <img src="/img-18.png" class="w-full" alt="" />
+      <div class="flex items-center flex-col md:flex-row justify-between">
+        <div class="relative mx-4">
+          <img src="/img-18.png" class="w-full " alt="" />
           <img
             src="/img-19.png"
             class="w-[30%] absolute top-[30%] left-[70%]"
@@ -66,36 +66,36 @@
     <section class="py-8 flex items-center justify-center">
       <div class="flex">
         <div
-          class="bg-sky-950 w-[11rem] h-[10.9375rem] flex-shrink-0 rounded-lg"
+          class="bg-sky-950 w-[6rem] h-[10.9375rem] md:w-[11rem] md:h-[10.9375rem] flex-shrink-0 rounded-lg"
         >
           <div class="c text-white flex flex-col justify-center">
-            <small class="font-bold p-6">APP|WEB</small>
+            <small class="font-bold p-4">APP|WEB</small>
             <h2 class="text-teal-500 font-semibold px-3">Fiximami</h2>
-            <p class="text-sm px-4">
+            <p class="text-xs md:text-sm md:px-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing
             </p>
           </div>
         </div>
 
         <div
-          class="w-[11rem] h-[10.9375rem] flex-shrink-0 rounded-lg bg-gray-300 -ml-4 shadow-gray-300 shadow-sm"
+          class="w-[6rem] h-[10.9375rem] md:w-[11rem] md:h-[10.9375rem] flex-shrink-0 rounded-lg bg-gray-300 -ml-4 shadow-gray-300 shadow-sm"
         >
           <div class="flex flex-col justify-center">
-            <small class="font-bold p-6">APP|WEB</small>
+            <small class="font-bold p-4">APP|WEB</small>
             <h2 class="text-teal-500 font-semibold px-3">Fiximami</h2>
-            <p class="text-sm px-4">
+            <p class="text-xs md:text-sm px-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing
             </p>
           </div>
         </div>
 
         <div
-          class="bg-sky-950 w-[11rem] -ml-4 h-[10.9375rem] flex-shrink-0 rounded-lg"
+          class="bg-sky-950 w-[6rem] h-[10.9375rem] md:w-[11rem] md:h-[10.9375rem] -ml-4 flex-shrink-0 rounded-lg"
         >
           <div class="c text-white flex flex-col justify-center">
-            <small class="font-bold p-6">APP|WEB</small>
+            <small class="font-bold p-4">APP|WEB</small>
             <h2 class="text-teal-500 font-semibold px-3">Fiximami</h2>
-            <p class="text-sm px-4">
+            <p class="text-xs md:text-sm px-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing
             </p>
           </div>
@@ -103,19 +103,35 @@
       </div>
     </section>
 
-    <footer class="flex justify-evenly items-start py-10 text-white bg-sky-950">
-      <div>
+    <footer
+      class="flex flex-col md:flex-row justify-center md:justify-evenly items-center md:items-start py-10 text-white bg-sky-950"
+    >
+      <div class="flex flex-col items-center justify-center">
         <h1>Mualen<span class="text-teal-500 text-lg">Tech</span></h1>
         <p>@2022 enterprise village</p>
-        <div class="py-4">
-          <textarea name="" id="" cols="30" rows="5"></textarea>
-          <input type="email" name="" id="" class="mt-2 w-[70%]" />
+
+        <div class="py-4 w-[80%] mx-auto md:mx-0">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="5"
+            class="w-full"
+            placeholder="comments"
+          ></textarea>
+          <input
+            type="email"
+            name=""
+            id=""
+            placeholder="email"
+            class="mt-2 w-full"
+          />
         </div>
       </div>
 
-      <div class="block list-none">
+      <div class="block list-none py-4">
         <span class="block text-teal-500">
-          <a href="/service">About Us</a>
+          <a href="#">About Us</a>
         </span>
         <ul>
           <li>
@@ -132,7 +148,65 @@
         </ul>
       </div>
 
+      <div class="list-none py-4">
+        <span class="block text-teal-500">Product</span>
+        <li><a href="/about" class="link link-hover">FixiMami </a></li>
+        <li><a href="#" class="link link-hover"> HighSafe</a></li>
+        <li><a href="#" class="link link-hover"> CDAS Agency</a></li>
+      </div>
+
       <div class="list-none">
+        <span class="footer-title text-teal-500">Contact Us</span>
+        <li><a class="link link-hover">mualenteachLTD.com</a></li>
+        <li><a class="link link-hover">233 24127 5668</a></li>
+      </div>
+    </footer>
+    <footer
+      class="flex flex-col md:flex-row justify-center md:justify-evenly items-center md:items-start py-10 text-white bg-sky-950"
+    >
+      <div class="flex flex-col items-center justify-center">
+        <h1>Mualen<span class="text-teal-500 text-lg">Tech</span></h1>
+        <p>@2022 enterprise village</p>
+
+        <div class="py-4 w-[80%] mx-auto md:mx-0">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="5"
+            class="w-full"
+            placeholder="comments"
+          ></textarea>
+          <input
+            type="email"
+            name=""
+            id=""
+            placeholder="email"
+            class="mt-2 w-full"
+          />
+        </div>
+      </div>
+
+      <div class="block list-none py-4">
+        <span class="block text-teal-500">
+          <a href="#">About Us</a>
+        </span>
+        <ul>
+          <li>
+            <a class="link link-hover">MualenTech's Overview & History</a>
+          </li>
+          <li>
+            <a class="link link-hover">Mission, Vision, Our Commitment</a>
+          </li>
+          <li>
+            <a class="link link-hover"
+              >Who we are, Our Values, Where We are Headed</a
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="list-none py-4">
         <span class="block text-teal-500">Product</span>
         <li><a href="/about" class="link link-hover">FixiMami </a></li>
         <li><a href="#" class="link link-hover"> HighSafe</a></li>
