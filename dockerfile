@@ -3,7 +3,7 @@ WORKDIR /app
 
 COPY package.json .
 # cache and install dependencies
-RUN npm ci
+RUN npm install
 COPY . .
 
 # build the project
