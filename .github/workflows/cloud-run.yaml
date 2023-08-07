@@ -3,7 +3,7 @@ name: Deployment to Cloud Run
 on:
   push:
     branches:
-      - "development"
+      - "main"
 
 env:
   PROJECT_ID: ${{secrets.GCP_SERVICES_PROJECT_ID}}
